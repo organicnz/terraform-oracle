@@ -1,0 +1,6 @@
+*.tf diff=terraform
+*.tfvars diff=terraform
+*.hcl diff=terraform
+
+# Treat lock files as binary
+.terraform.lock.hcl binary

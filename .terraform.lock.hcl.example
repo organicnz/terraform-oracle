@@ -1,0 +1,5 @@
+# This file is maintained automatically by "terraform init".
+# Manual edits may be lost in future updates.
+# Copy this to .terraform.lock.hcl after running terraform init
+
+# Example lock file structure - actual hashes will be generated

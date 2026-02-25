@@ -1,0 +1,42 @@
+# Terraform
+*.tfstate
+*.tfstate.*
+*.tfvars
+!*.tfvars.example
+# Remove environment specific vars as they contain sensitive OCIDs
+# !environments/**/*.tfvars
+.terraform/
+.terraform.lock.hcl
+tfplan
+
+# Secrets
+.env
+.oci/
+*.pem
+crash.log
+crash.*.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Outputs
+outputs-*.json
+
+# OCI
+.oci/
+*.pem
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log

@@ -1,0 +1,13 @@
+---
+# tfsec configuration for security scanning
+
+severity_overrides:
+  LOW: WARNING
+  MEDIUM: ERROR
+  HIGH: ERROR
+  CRITICAL: ERROR
+
+exclude:
+  - AVD-OVH-0001  # Example exclusion
+
+minimum_severity: LOW
